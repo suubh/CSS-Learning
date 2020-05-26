@@ -1,0 +1,28 @@
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: "Sofia";
+}
+div{
+    background-color: black;
+    width: 300px;
+    border: 15px lightgreen;
+    padding: 50px;
+    margin: 24px;
+    outline-style: groove;
+    color:white;
+    font-family: 'Tangerine', serif;
+
+    
+}
+body{
+    background-image: url("first123.png");
+    
+}
+h2{
+    color:white;
+    text-align: right;
+}
+p{
+    color: white;
+}
