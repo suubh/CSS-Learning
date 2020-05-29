@@ -1,0 +1,66 @@
+.first{
+    width: 100px;
+  height: 100px;
+  background: #ff0000;
+  transition: width 2s;
+}
+.first:hover{
+    width: 300px;
+}
+.second{
+    width:100px;
+    height:100px;
+    background:#ffff00;
+    border-radius: 6px;
+    transition-property: color,width,background,border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+}
+.second:hover{
+    color:#0000ff;
+    width:200px;
+    background:#ff0000;
+    border-radius: 50%;
+}
+.third{
+    background: #2db34a;
+    border-radius: 6px;
+    
+    height: 95px;
+    line-height: 95px;
+    
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+  }
+.third:hover{
+    background: #ff7b29;
+    border-radius: 50%;
+}
+button {
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    
+    box-shadow: 0 5px 0 #006599;
+
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    display: block;
+    margin: 0 auto;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+  }
+  button:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+    transform: scale(0.5,0.5);
+  }
+  p.highlight:hover{
+    background-color: red;
+
+  }
