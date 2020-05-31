@@ -1,0 +1,35 @@
+nav{
+    box-sizing: border-box;
+    border: 1px solid #06425C;
+    color: black;
+    background-color: green;
+    height: 100vh;
+    width:20%;
+   
+	margin-right:15px;
+    display: inline-block;
+    overflow: auto;
+}
+nav a{
+	display:block;
+	line-height: 45px;
+	height:45px;
+	color: #FFFFFF;
+	background-color:#486B02;
+	text-decoration: none;
+
+	background: url('../imgs/arrow.png') no-repeat;
+	padding-left: 50px;
+	margin:10px 0 10px 5px;
+}
+section{
+    display: inline-block;
+	width:70%;
+	height:100vh;
+	overflow: auto;
+}
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1%;
+}
