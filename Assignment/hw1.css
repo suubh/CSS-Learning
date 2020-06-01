@@ -1,0 +1,130 @@
+table{
+    margin:0 auto;
+    width: 50%;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+}
+th{
+    background-color: #306307;
+    background:-moz-linear-gradient(top,#306307,#ffffff);
+    background: -webkit-linear-gradient(top,#306307,#ffffff);
+    background: -o-linear-gradient(top,#306307,#ffffff);
+    background: linear-gradient(top,#306307,#ffffff);
+    border: 2px solid rgb(252, 250, 250);
+    border-radius: 7px 7px 0 0;
+    border-left: none;
+    border-bottom: 3px solid  #306307;
+    height: 50px;
+}
+td{
+    padding:10px;
+    color: #f0ffff;
+    background-color: #5f9ea0;
+    border-radius: .2px;
+}
+tr {
+    opacity:0.8;
+}
+tr:hover{
+    opacity: 1;
+}
+tr:first-child{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    opacity: 1;
+}
+td:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+td:nth-child(2){
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+td:nth-child(3){
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+th:first-child{
+    text-align: left;
+}
+body{
+    padding: 5px;
+    margin:10px;
+}
+header{
+    background-color:#ffffff ;
+    background-image: url("flywheel.jpg");
+    padding-top: 10px ;
+    padding-bottom: 70px;
+    height: 100px;
+}
+nav{
+    padding:3px;
+    margin-left: 270px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding:10px 40px;
+    margin: 10px 40px;
+    color: #000000;
+    display:inline-block;
+    /* for transparent */
+    background: rgba(222, 235, 222, 0.5);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.active{
+    background-color: #ffffff;
+}
+h1{
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    color:#040505;
+    text-transform: uppercase;
+}
+main{
+    display:inline-block;
+    height:80%;
+    width:100%;
+    box-sizing: content-box;
+}
+.left{
+    box-sizing:content-box;
+    float:left;
+    padding:2%;
+    display:inline-block;
+    margin:1%;
+    width:15%;
+    height:100vh;
+    border:1%;
+    background-color: #ffff00;
+}
+.right{
+    
+    box-sizing: content-box;
+    height:100%;
+    width:95%;
+}
+section{
+    color: rgba(10, 10, 10, 1);
+    border-left: 2px;
+}
+img{
+    display: block;
+    width: 85%;
+    height: 15%;
+    padding: 5%;
+    margin: 0 auto;
+    border-color: rgb(10,10,10);
+    border-width: 20px 10px;
+}
+
+
